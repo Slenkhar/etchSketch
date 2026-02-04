@@ -3,7 +3,7 @@ const gridContainer = document.querySelector("#gridContainer");
 //----------------
 //Define grid size
 //----------------
-const gridSize = 50 * 50;
+const gridSize = 16 * 16;
 
 //----------------
 // Create grid
