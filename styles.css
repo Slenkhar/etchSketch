@@ -31,6 +31,11 @@ body {
 .gridElement {
   flex: 0 0 var(--grid-percent);
   height: var(--grid-percent);
+  transition: opacity 0.3s;
+}
+
+.gridElement.hovered {
+  transition: background-color 0.3s;
 }
 
 #gridReset {
