@@ -1,5 +1,6 @@
 :root {
   --grid-percent: 0;
+  --grid-color: black;
 }
 
 * { 
@@ -23,19 +24,18 @@ body {
 #gridContainer {
   display: flex;
   flex-wrap: wrap;
-  width: 500px;
-  height: 500px;
+  width: clamp(200px, 85vw, 500px);
+  height: clamp(200px, 85vw, 500px);
   border: 2px solid black;
+  touch-action: none;
 }
 
 .gridElement {
   flex: 0 0 var(--grid-percent);
   height: var(--grid-percent);
+  background-color: var(--grid-color);
+  opacity: 0;
   transition: opacity 0.3s;
-}
-
-.gridElement.hovered {
-  transition: background-color 0.3s;
 }
 
 #gridReset {
