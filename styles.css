@@ -27,7 +27,6 @@ body {
   width: clamp(200px, 85vw, 500px);
   height: clamp(200px, 85vw, 500px);
   border: 2px solid black;
-  touch-action: none;
 }
 
 .gridElement {
