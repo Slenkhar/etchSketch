@@ -63,5 +63,3 @@ function setStartColor() {
 //------------------------
 // Prevent drag on desktop
 //------------------------
-
-document.addEventListener("dragstart", (e) => e.preventDefault());
